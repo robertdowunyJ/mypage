@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="내 롤 프로필 - 프로필 링크">
+    <meta property="og:description" content="하이루?">
+    <meta property="og:image" content="로다준.jpg">
+    <title>내 롤 프로필 - 프로필 링크</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+* {
+    font-family: "Pretendard",serif;
+}
+        body {
+
+            background-color: #99FFCC;
+        } 
+        .profile {
+            width: 100px;
+            height: 100px;
+
+            background-color: black;
+            border-radius: 100%; 
+            border : 3px solid white;
+
+            background-image:url('로다준.jpg');
+            background-position: center;
+            background-size: cover;
+            
+        }
+        .main{
+
+            color: black;
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .sub{
+            color: pink;
+            font-size: 14px;
+            
+        }
+        .wrap{
+            width: 300px;
+            margin: 30px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap > a {
+
+            width: 300px;
+            height: 50px;
+            background-color: white; 
+            border-radius: 8px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight:bold;
+            color: #44398A;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+
+            box-shadow: 3px 3px 5px 0px black;
+
+        }
+        .wrap > a:hover{
+            background-color: #f2f2f2;
+            font-size:20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class ="wrap">
+        <div class = "profile"></div> 
+        <h1 class = "main">로다준</h1>
+        <a target="_blank" href="https://www.op.gg/summoners/kr/%EB%A1%9C%EB%B2%84%ED%8A%B8%EB%8B%A4%EC%9A%B0%EB%8B%88%EC%A4%80%EC%97%B4">op.gg 전적</a>
+        <a target="_blank" href="http://fow.kr/find/%EB%A1%9C%EB%B2%84%ED%8A%B8%EB%8B%A4%EC%9A%B0%EB%8B%88%EC%A4%80%EC%97%B4">fow 전적</a>
+    </div> 
+</body>
+</html>
